@@ -1,13 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import Aboutus from './Pages/Aboutus';
+import Pricing from './Pages/Pricing';
+import Contactus from './Pages/Contactus';
+import Nopage from './Pages/Nopage';
+import Order from './Pages/Reviews';
+import Feedback from './Pages/Feedback';
+import Home from './Components/Home';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <Routes>
+        <Route path='/' element={<App/>}/>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/Aboutus' element={<Aboutus/>}/>
+        <Route path='/Pricing' element={<Pricing/>}/>
+        <Route path='/Contactus' element={<Contactus/>}/>
+        <Route path='/Order' element={<Order/>}/>
+        <Route path='/Feedback' element={<Feedback/>}/>
+        <Route path='*' element={<Nopage/>}/>
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
