@@ -1,12 +1,12 @@
-// import React from "react";
+import React from "react";
 
 
-// function Nopage(){
-//     return(
-//         <>
-//             <h2 className="mt-5 text-center">Page Not Found</h2>
+function Nopage(){
+    return(
+        <>
+            <h2 className="mt-5 text-center">Page Not Found..errror</h2>
             
-//         </>   
-//     )
-// }
-// export default Nopage;
+        </>   
+    )
+}
+export default Nopage;
