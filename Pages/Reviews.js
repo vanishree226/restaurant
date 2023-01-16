@@ -1,8 +1,8 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
-import Headers from "../Components/Headers";
-import '../Components/Assets/Profile.css';
+import Headers from "Components/Headers";
+import 'Components/Assets/Profile.css';
 
 function Profile() {
     const [user, setUser] = useState([]);
