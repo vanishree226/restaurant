@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
-import Aboutus from './Pages/Aboutus';
-import Pricing from './Pages/Pricing';
-import Contactus from './Pages/Contactus';
-import Nopage from './Pages/Nopage';
-import Order from './Pages/Reviews';
-import Feedback from './Pages/Feedback';
-import Home from './Components/Home';
+import Aboutus from 'Pages/Aboutus';
+import Pricing from 'Pages/Pricing';
+import Contactus from 'Pages/Contactus';
+import Nopage from 'Pages/Nopage';
+import Order from 'Pages/Reviews';
+import Feedback from 'Pages/Feedback';
+import Home from 'Components/Home';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,7 +24,7 @@ root.render(
         <Route path='/Contactus' element={<Contactus/>}/>
         <Route path='/Order' element={<Order/>}/>
         <Route path='/Feedback' element={<Feedback/>}/>
-        <Route path='*' element={<Nopage/>}/>
+//         <Route path='*' element={<Nopage/>}/>
       </Routes>
     </Router>
   </React.StrictMode>
