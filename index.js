@@ -24,7 +24,7 @@ root.render(
         <Route path='/Contactus' element={<Contactus/>}/>
         <Route path='/Order' element={<Order/>}/>
         <Route path='/Feedback' element={<Feedback/>}/>
-        <Route path='*' element={<Nopage/>}/>
+//         <Route path='*' element={<Nopage/>}/>
       </Routes>
     </Router>
   </React.StrictMode>
