@@ -1,5 +1,5 @@
 import React from "react";
-import Headers from "../Components/Headers";
+import Headers from "Components/Headers";
 import Card from 'react-bootstrap/Card';
 
 function Aboutus() {
