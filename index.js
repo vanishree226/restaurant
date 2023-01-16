@@ -6,7 +6,7 @@ import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
 import Aboutus from './Pages/Aboutus';
 import Pricing from './Pages/Pricing';
 import Contactus from './Pages/Contactus';
-import Nopage from './Pages/Nopage';
+// import Nopage from './Pages/Nopage';
 import Order from './Pages/Reviews';
 import Feedback from './Pages/Feedback';
 import Home from './Components/Home';
@@ -18,7 +18,7 @@ root.render(
     <Router>
       <Routes>
         <Route path='/' element={<App/>}/>
-        <Route path='/' element={<Home/>}/>
+//         <Route path='/' element={<Home/>}/>
         <Route path='/Aboutus' element={<Aboutus/>}/>
         <Route path='/Pricing' element={<Pricing/>}/>
         <Route path='/Contactus' element={<Contactus/>}/>
