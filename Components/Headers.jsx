@@ -19,7 +19,7 @@ const Headers = () => {
                     <Nav> 
                         <ul className="ul">
                             <li>
-                                <Link className='item' to='/react-restaurant'>Home</Link>
+                                <Link className='item' to='/'>Home</Link>
                             </li>
                             <li>
                                 <Link className='item' to='/Aboutus'>About</Link>
@@ -36,9 +36,9 @@ const Headers = () => {
                             <li>
                                 <Link className='item' to='/Feedback'>Feedback</Link>
                             </li>
-                            <li>
-                                <Link  className='item'to='*'></Link>
-                            </li>
+//                             <li>
+//                                 <Link  className='item'to='*'></Link>
+//                             </li>
                         </ul>
                     </Nav>
                 </Container>
